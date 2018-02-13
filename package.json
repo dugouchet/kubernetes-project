@@ -1,0 +1,23 @@
+{
+  "name": "kubernetes-project",
+  "version": "1.0.0",
+  "description": "docker image containts nodejs app",
+  "main": "src",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dugouchet/kubernetes-project.git"
+  },
+  "author": "anthony dugouchet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dugouchet/kubernetes-project/issues"
+  },
+  "homepage": "https://github.com/dugouchet/kubernetes-project#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
